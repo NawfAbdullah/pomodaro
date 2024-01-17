@@ -1,7 +1,6 @@
 # pomodaro
-
-A new Flutter project.
-
+Pomodaro Clock.
+<a href="https://www.flaticon.com/free-icons/tomato" title="tomato icons">Tomato icons created by Pixel perfect - Flaticon</a>
 ## Getting Started
 
 This project is a starting point for a Flutter application.
