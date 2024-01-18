@@ -341,6 +341,7 @@ class _HomeState extends State<Home> {
                         child: GestureDetector(
                           onTap: () {
                             setState(() {
+                              isBreak = false;
                               reset();
                             });
                           },
