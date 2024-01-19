@@ -121,12 +121,12 @@ class _HomeState extends State<Home> {
                   color: Colors.white,
                   borderRadius: BorderRadius.all(Radius.circular(10))),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Text(
                     'Session: $sessionNumber/4',
                     style: const TextStyle(
-                      fontSize: 30,
+                      fontSize: 20,
                       color: Colors.grey,
                       decoration: TextDecoration.none,
                     ),
@@ -137,15 +137,15 @@ class _HomeState extends State<Home> {
                       const Text(
                         'Work Time :',
                         style: TextStyle(
-                          fontSize: 15,
-                          letterSpacing: 1,
+                          fontSize: 10,
+                          letterSpacing: 0.5,
                           decoration: TextDecoration.none,
                           color: Colors.grey,
                         ),
                       ),
                       SizedBox(
                         width: 50,
-                        height: 150,
+                        height: 100,
                         child: CupertinoPicker(
                             itemExtent: 40,
                             onSelectedItemChanged: (value) => setState(() {
@@ -220,15 +220,15 @@ class _HomeState extends State<Home> {
                       const Text(
                         'Break Time :',
                         style: TextStyle(
-                          fontSize: 15,
-                          letterSpacing: 1,
+                          fontSize: 10,
+                          letterSpacing: 0.5,
                           decoration: TextDecoration.none,
                           color: Colors.grey,
                         ),
                       ),
                       SizedBox(
                         width: 50,
-                        height: 150,
+                        height: 100,
                         child: CupertinoPicker(
                             itemExtent: 40,
                             onSelectedItemChanged: (value) => setState(() {
@@ -315,7 +315,7 @@ class _HomeState extends State<Home> {
                           child: Expanded(
                             flex: 1,
                             child: Container(
-                              margin: EdgeInsets.all(5),
+                              margin: const EdgeInsets.all(5),
                               padding: const EdgeInsets.symmetric(
                                   horizontal: 10, vertical: 10),
                               decoration: const BoxDecoration(
@@ -328,7 +328,7 @@ class _HomeState extends State<Home> {
                                 style: const TextStyle(
                                   decoration: TextDecoration.none,
                                   color: Color(0xffffffff),
-                                  fontSize: 30,
+                                  fontSize: 10,
                                 ),
                                 textAlign: TextAlign.center,
                               ),
@@ -363,7 +363,7 @@ class _HomeState extends State<Home> {
                                 style: TextStyle(
                                   decoration: TextDecoration.none,
                                   color: Color(0xff000080),
-                                  fontSize: 30,
+                                  fontSize: 10,
                                 ),
                               ),
                             ),
